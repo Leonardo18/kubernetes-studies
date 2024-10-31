@@ -3,7 +3,7 @@ My personal repository for kubernets studies
 
 
 # Kubernetes Components
-![components-of-kubernetes](https://github.com/user-attachments/assets/b8bfef44-3917-4ef5-9c3e-a27b50eddf59)
+![components-of-kubernetes-white-bg](https://github.com/user-attachments/assets/37c6b872-6c1d-4a53-ac9c-f1a2e63179bf)
 
 # Control Plane Components
 Manage the overall state of the cluster
