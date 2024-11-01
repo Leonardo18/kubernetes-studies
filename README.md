@@ -1,5 +1,5 @@
-# kubernets-studies
-My personal repository for kubernets studies
+# kubernetes-studies
+My personal repository for kubernetes studies
 
 
 # Kubernetes Components
