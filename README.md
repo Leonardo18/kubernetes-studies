@@ -1,6 +1,23 @@
 # kubernetes-studies
 My personal repository for kubernetes studies
 
+# How to run the api in the locally kubernetes cluster
+
+## Requirements
+- [k3d](https://k3d.io/v5.7.4/)
+- [Docker](https://docs.docker.com/engine/install/)
+- [Kubectl](https://kubernetes.io/docs/tasks/tools/)
+
+
+## Create the k3d cluster with the command
+- `k3d cluster create mycluster --servers 1 --agents 2 -p "8080:30001@loadbalancer"`
+
+## After creating the cluster, use the command below to run the manifest
+- `kubectl apply -f deployment.yml`
+
+## Check if the api GET is responding with the url below
+- [GET Weather Forecast](http://localhost:8080/weatherforecast)
+
 
 # Kubernetes Components
 ![components-of-kubernetes-white-bg](https://github.com/user-attachments/assets/37c6b872-6c1d-4a53-ac9c-f1a2e63179bf)
